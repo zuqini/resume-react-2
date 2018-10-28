@@ -1,0 +1,14 @@
+$letterAspectRatio: 11 / 8.5;
+
+$containerWidth: 1024px;
+$containerHeight: $letterAspectRatio * $containerWidth;
+$containerPaddingV: 45px;
+$containerPaddingH: 55px;
+
+$headerHeight: 115px;
+
+$bodyHeight: $containerHeight - 2 * $containerPaddingV - $headerHeight;
+$bodyWidth: $containerWidth - 2 * $containerPaddingH;
+
+$sideWidth: $bodyWidth * 0.25;
+$mainWidth: $bodyWidth - $sideWidth;
