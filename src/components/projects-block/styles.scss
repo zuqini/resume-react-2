@@ -1,0 +1,41 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.projects-block {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+
+    .project-header {
+
+        .project-title {
+            float: left;
+            font-size: 21px;
+        }
+
+        .separator {
+            float: left;
+            font-size: 17px;
+            margin: 2px 4px;
+        }
+
+        .tech {
+            float: left;
+            margin: 3px 0;
+            font-size: 16px;
+            color: $grey;
+        }
+
+        .time {
+            float: right;
+            font-size: 16px;
+        }
+    }
+
+    .content {
+        margin-top: 5px;
+        padding-left: 20px;
+        font-size: 17px;
+        line-height: 1.1;
+    }
+}

@@ -1,0 +1,79 @@
+@import '../../styles/colors';
+
+$header-size: 16px;
+$company-logo-size: 62px;
+$company-logo-bg-size: $company-logo-size;
+$shadow-diag: 2px;
+$shadow-blur: 8px;
+
+.header-default {
+    display: inline-block;
+    width: $header-size;
+    height: $header-size;
+    background-size: $header-size;
+
+    //centering and spacing
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+.company-default {
+    display: inline-block;
+    width: $company-logo-size;
+    height: $company-logo-size;
+    background-size: $company-logo-bg-size;
+    border-radius: 11px;
+    //-webkit-box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
+    //-moz-box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
+    //box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
+}
+
+.website {
+    background-image: url('../../images/website.png');
+}
+
+.email {
+    background-image: url('../../images/email.png');
+}
+
+.github {
+    background-image: url('../../images/github.png');
+}
+
+.linkedin {
+    background-image: url('../../images/linkedin.png');
+}
+
+.phone {
+    background-image: url('../../images/phone.png');
+}
+
+.yahoo {
+    background-image: url('../../images/yahoo.png');
+}
+
+.rave {
+    background-image: url('../../images/rave.png');
+}
+
+.martello {
+    background-image: url('../../images/martello.jpeg');
+    background-size: $company-logo-bg-size;
+    -webkit-box-shadow: 0 0 0 $black;
+    -moz-box-shadow: 0 0 0 $black;
+    box-shadow: 0 0 0 $black;
+}
+
+.linkedin-colored {
+    background-image: url('../../images/linkedin-company.png');
+}
+
+.microsoft {
+    background-image: url('../../images/microsoft.jpg');
+    border-radius: 0px;
+}
+
+.nakina {
+    background-image: url('../../images/nakina.png');
+}

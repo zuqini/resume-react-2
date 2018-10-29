@@ -1,0 +1,15 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.general-block {
+    width: 100%;
+    margin-top: 14px;
+
+    .block-title {
+        padding-bottom: 10px;
+        font-size: 30px;
+        line-height: 0.8;
+        color: $thin-dark-blue;
+        text-transform: uppercase;
+    }
+}

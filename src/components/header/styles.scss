@@ -1,0 +1,33 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.header {
+    width: 100%;
+    height: $headerHeight;
+    border-bottom: 2px solid $grey;
+
+    .main-desc {
+        float: left;
+
+        .name {
+            font-size: 73px;
+            margin-bottom: 10px;
+        }
+
+        .term {
+            font-size: 20px;
+        }
+    }
+
+    .contact-links {
+        float: right;
+        width: $sideWidth;
+        margin-top: -10px;
+        padding-left: 12px;
+
+        >a {
+            display: block;
+            margin-bottom: 6px;
+        }
+    }
+}
