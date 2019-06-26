@@ -5,53 +5,101 @@ import './styles.scss';
 import GeneralBlock from '../general-block/index.jsx';
 import ProjectsBlock from '../projects-block/index.jsx';
 import ExperienceBlock from '../experience-block/index.jsx';
+import SubExperienceBlock from '../sub-experience-block/index.jsx';
 import Highlight from '../highlight/index.jsx';
 import Italic from '../italic/index.jsx';
 
 const MainSection = (props) => {
-    const vReqProj = (
-        <ProjectsBlock
-            title='VReq'
-            time='November 2014'
+    const DeprecatedProjects = [
+        (
+            <ProjectsBlock
+                title='VReq'
+                time='November 2014'
+                techList={[
+                    'D3.js',
+                    'JQuery',
+                    'Waterloo Open Data API',
+                ]}
+            >
+                A <Highlight>D3.js</Highlight> representation of all course pre-requisites at the University of Waterloo
+            </ProjectsBlock>
+        ),
+        (
+            <ProjectsBlock
+                title='Terre'
+                href='https://github.com/zuqini/Terre'
+                time='February 2015'
+                techList={[
+                    'C++',
+                    'Cocos2d-X',
+                ]}
+            >
+                A physics simulation sandbox for building star systems with dynamic lighting effects
+            </ProjectsBlock>
+        ),
+        (<ProjectsBlock
+            title='Angora'
+            href='https://github.com/jasonf7/Angora'
+            time='January 2016'
             techList={[
-                        'D3.js',
-                        'JQuery',
-                        'Waterloo Open Data API',
-                    ]}
+                'Node.js',
+                'Angular',
+                'MongoDB',
+                'Jade/Pug',
+                'Less',
+            ]}
         >
-            A <Highlight>D3.js</Highlight> representation of all course pre-requisites at the University of Waterloo
-        </ProjectsBlock>
-    );
+            A platform where users explore various hairstyles and review local hairstylists
+        </ProjectsBlock>)
+    ];
     return (
         <div className='main-section'>
             <GeneralBlock title='Experience'>
                 <ExperienceBlock
-                  position='Software Engineer'
+                    position='Software Engineer'
+                    company='Microsoft'
+                    href='https://www.microsoft.com/en-us/about/default.aspx'
+                    time='September 2018 - Present'
+                    location='Redmond, WA'
+                    icon='microsoft'
+                    techList={[
+                        'C#',
+                        'Python',
+                        'TensorFlow',
+                        'ML.NET',
+                        'LINQ',
+                        'MS Cosmos (Data Processing Platform)'
+                    ]}
+                >
+                    <li>
+                        Designed, trained, and integrated a new <Highlight>autosuggest ranker</Highlight> for the Chromium-based Edge browser; metrics show <Highlight>parity</Highlight> against Chrome autosuggestion
+                    </li>
+                    <li>
+                        Designed and built a new service for ranking and serving non-prefix-match suggestions; serves <Highlight>2500~ QPS per machine</Highlight> and responds under <Highlight>50 ms</Highlight>
+                    </li>
+                    <li>
+                        Helped tune and improve the autosuggest relevance of Windows Search Box, legacy Edge, and Bing.com by statistically analyzing query patterns and experimentation
+                    </li>
+                </ExperienceBlock>
+                <SubExperienceBlock
+                  position='Software Engineering Intern'
                   company='Microsoft'
                   href='https://www.microsoft.com/en-us/about/default.aspx'
                   time='September 2017 - December 2017'
                   location='Redmond, WA'
-                  icon='microsoft'
-                  techList={[
-                        'Python',
-                        'C#',
-                        'TensorFlow',
-                        'LINQ',
-                        'MS Cosmos (Internal Data Processing Platform)'
-                    ]}
                 >
                     <li>
-                        Built an <Highlight>n-gram language model</Highlight> using past Bing queries to predict the next words of incomplete user queries
+                        Built an <Highlight>n-gram language model</Highlight> to predict the next words of incomplete user queries
                     </li>
                     <li>
                         Integrated <Highlight>next word prediction</Highlight> into <Highlight>Bing</Highlight>'s autosuggestion pipeline to show relevant suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>23%</Highlight>
                     </li>
                     <li>
-                        Prototyped a <Highlight>recurrent neural network language model</Highlight> to further improve prediction relevance; model captures semantic relationships and long-term dependencies
+                        Prototyped a <Highlight>recurrent neural network (LSTM) language model</Highlight> to further improve prediction relevance; captures semantic relationships and long-term dependencies
                     </li>
-                </ExperienceBlock>
+                </SubExperienceBlock>
                 <ExperienceBlock
-                    position='Data Infrastructure Engineer'
+                    position='Data Infrastructure Intern'
                     company='LinkedIn'
                     href='https://press.linkedin.com/about-linkedin'
                     time='January 2017 - April 2017'
@@ -65,22 +113,22 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Helped launch LinkedIn's <Highlight>media processing</Highlight> infrastructure for processing, managing, and serving digital media assets
+                        Helped launch LinkedIn's <Highlight>media infrastructure</Highlight> for processing and serving media assets
                     </li>
                     <li>
-                        Designed, built, and released a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for the media processing infrastructure. Framework is:
+                        Designed, built, and released a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for the media processing infrastructure:
                         <ul>
                             <li>
-                                Configurable with custom user logic and handles: traffic generation, pipeline monitoring, quality/latency metrics collection, and data validation
+                                Handles traffic generation, pipeline monitoring, metrics collection, and data validation
                             </li>
                             <li>
-                                Used by media teams for performing experiments, analyzing key metrics, and monitoring for failures
+                                Used by media teams for experimentation, analyzing metrics, and monitoring for failures
                             </li>
                         </ul>
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
-                    position='Software Engineer'
+                    position='Software Engineering Intern'
                     company='Yahoo!'
                     href='https://about.yahoo.com/'
                     time='May 2016 - August 2016'
@@ -97,14 +145,10 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> entirely within 7 weeks as part of the web team; built core UI components and API endpoints
+                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> as part of the web team; built core UI components and API endpoints
                     </li>
                     <li>
-                        Optimized APIs and helped integrate AWS CloudSearch for improved performance;
-                        reduced avg response time to under <Highlight>200ms</Highlight> and increased max QPS capacity by <Highlight>30x</Highlight>
-                    </li>
-                    <li>
-                        Integrated <Highlight>Tumblr</Highlight> into Yahoo! View to provide official and fan posts related to shows
+                        Integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
                     </li>
                     <li>
                         Setup the entire backend integration testing infrastructure for Yahoo! View
@@ -113,9 +157,22 @@ const MainSection = (props) => {
             </GeneralBlock>
             <GeneralBlock title='Projects'>
                 <ProjectsBlock
+                    title='KSwap'
+                    href='https://github.com/zuqini/'
+                    time='December 2018 - Present'
+                    techList={[
+                        'Node.js',
+                        'React',
+                        'Redux',
+                        'Firebase',
+                    ]}
+                >
+                    A web platform where music enthusiasts can trade and resale albums and merchandise
+                </ProjectsBlock>
+                <ProjectsBlock
                   title='LUQL'
                   href='https://luql.io/'
-                  time='January 2017 - Present'
+                  time='January 2017 - September 2017'
                   techList={[
                         'Node.js',
                         'React-Native',
@@ -123,7 +180,7 @@ const MainSection = (props) => {
                         'Firebase',
                     ]}
                 >
-                    A platform to help locals create and guide tours for travellers, tourists, and adventurers
+                    An iOS platform to help locals create and guide tours for travellers, tourists, and adventurers
                 </ProjectsBlock>
                 <ProjectsBlock
                   title='MelonWatch'
@@ -135,32 +192,7 @@ const MainSection = (props) => {
                         'OpenAL',
                     ]}
                 >
-                    An OpenGL FPS; built the entire game engine from scratch featuring dynamic shadow mapping, a particle system, and a physics engine
-                </ProjectsBlock>
-                <ProjectsBlock
-                    title='Angora'
-                    href='https://github.com/jasonf7/Angora'
-                    time='January 2016'
-                    techList={[
-                        'Node.js',
-                        'Angular',
-                        'MongoDB',
-                        'Jade/Pug',
-                        'Less',
-                    ]}
-                >
-                    A platform where users explore various hairstyles and review local hairstylists
-                </ProjectsBlock>
-                <ProjectsBlock
-                    title='Terre'
-                    href='https://github.com/zuqini/Terre'
-                    time='February 2015'
-                    techList={[
-                        'C++',
-                        'Cocos2d-X',
-                    ]}
-                >
-                    A physics simulation sandbox for building star systems with dynamic lighting effects
+                    An 3D OpenGL FPS; built the entire game engine from scratch featuring dynamic shadow mapping, a particle system, and a physics engine
                 </ProjectsBlock>
             </GeneralBlock>
         </div>

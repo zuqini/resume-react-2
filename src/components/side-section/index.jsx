@@ -13,21 +13,21 @@ const SideSection = (props) => {
             <GeneralBlock title='Skills'>
                 <SkillsBlock title='Languages'>
                     <li>JavaScript</li>
+                    <li>Python</li>
                     <li>Java</li>
                     <li>C#</li>
                     <li>Scala</li>
                     <li>C++</li>
                     <li>C</li>
-                    <li>Python</li>
                     <li>HTML / CSS</li>
                     <li>ARM Assembly</li>
                 </SkillsBlock>
                 <SkillsBlock title='Frameworks'>
                     <li>TensorFlow</li>
                     <li>React / React Native</li>
+                    <li>Redux</li>
                     <li>Angular</li>
                     <li>Express</li>
-                    <li>MobX</li>
                     <li>Less / Sass</li>
                     <li>OpenGL</li>
                     <li>Android SDK</li>
@@ -39,13 +39,13 @@ const SideSection = (props) => {
                 </SkillsBlock>
                 <SkillsBlock title='Tools'>
                     <li>Spark</li>
-                    <li>Hadoop MapReduce</li>
+                    <li>Hadoop</li>
                     <li>Kafka</li>
                     <li>Node.js</li>
                     <li>Firebase</li>
                     <li>Git</li>
                     <li>Maven</li>
-                    <li>Webpack</li>
+                    <li>Jupyter Notebook</li>
                 </SkillsBlock>
             </GeneralBlock>
             <GeneralBlock title='Education'>

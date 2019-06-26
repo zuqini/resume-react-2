@@ -1,0 +1,51 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.sub-experience-block {
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+
+    .sub-experience-header {
+        display: block;
+        border-bottom: $light-grey dashed 1px;
+        padding-bottom: 5px;
+
+        .desc {
+
+            .position-title {
+                font-size: 24px;
+                margin-bottom: 4px;
+            }
+
+            .position {
+                font-size: 20px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+                margin-bottom: 4px;
+            }
+        }
+    }
+
+    .content {
+        padding-left: 30px;
+        list-style-type: disc;
+
+        >li {
+            margin-top: 10px;
+            font-size: 17px;
+            line-height: 1.1;
+
+            ul {
+                padding-left: 15px;
+                list-style-type: circle;
+
+                li {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
