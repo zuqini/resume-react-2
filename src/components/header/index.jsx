@@ -5,7 +5,6 @@ import './styles.scss';
 import Icon from '../icon';
 
 const Header = (props) => {
-    const { term } = props;
     return (
         <div className='header clear-fix'>
             <div className='main-desc'>
@@ -13,7 +12,7 @@ const Header = (props) => {
                 <p className='term'> <span className='bold-text'>Software Engineer</span> | University of Waterloo</p>
             </div>
             <div className='contact-links med-text'>
-                <a href='http://zuqi.li'><Icon icon='website' />zuqi.li</a>
+                <a href='https://zuqi.li'><Icon icon='website' />https://zuqi.li</a>
                 <a><Icon icon='phone' />(206) 724 3286</a>
                 <a href='mailto:lizuqiliang@gmail.com'><Icon icon='email' />lizuqiliang@gmail.com</a>
                 <a href='https://github.com/zuqini'><Icon icon='github' />github.com/zuqini</a>

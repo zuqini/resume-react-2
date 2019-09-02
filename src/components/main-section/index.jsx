@@ -59,50 +59,42 @@ const MainSection = (props) => {
                     position='Software Engineer'
                     company='Microsoft'
                     href='https://www.microsoft.com/en-us/about/default.aspx'
-                    time='September 2018 - Present'
+                    time='Sept 2018 - Present'
+                    subTime='Sept 2017 - Dec 2017'
                     location='Redmond, WA'
                     icon='microsoft'
                     techList={[
                         'C#',
                         'Python',
+                        'TypeScript',
                         'TensorFlow',
                         'ML.NET',
                         'LINQ',
-                        'MS Cosmos (Data Processing Platform)'
                     ]}
                 >
                     <li>
-                        Designed, trained, and integrated a new <Highlight>autosuggest ranker</Highlight> for the Chromium-based Edge browser; metrics show <Highlight>parity</Highlight> against Chrome autosuggestion
+                        Designed, trained, and integrated a new <Highlight>autosuggest ranker</Highlight> into the Chromium-based Edge browser; metrics show <Highlight>parity</Highlight> against Chrome autosuggest
                     </li>
                     <li>
-                        Designed and built a new service for ranking and serving non-prefix-match suggestions; serves <Highlight>2500~ QPS per machine</Highlight> and responds under <Highlight>50 ms</Highlight>
+                        Built a new service for ranking and serving non-prefix-match autosuggestions; serves <Highlight>2,500~ QPS per machine</Highlight> and has a 99.9th percentile latency of <Highlight>15~ ms</Highlight>
                     </li>
                     <li>
-                        Helped tune and improve the autosuggest relevance of Windows Search Box, legacy Edge, and Bing.com by statistically analyzing query patterns and experimentation
+                        Built an <Highlight>n-gram</Highlight> and a <Highlight>recurrent neural network language model</Highlight> to predict the next words of incomplete user queries
+                        <ul>
+                            <li>
+                                Integrated <Highlight>next word prediction</Highlight> into Bing autosuggest to show relevant suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>23%</Highlight>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Helped tune and improve the autosuggest relevance of Windows Search Box, legacy Edge, and Bing.com through analyzing user patterns and experimentation
                     </li>
                 </ExperienceBlock>
-                <SubExperienceBlock
-                  position='Software Engineering Intern'
-                  company='Microsoft'
-                  href='https://www.microsoft.com/en-us/about/default.aspx'
-                  time='September 2017 - December 2017'
-                  location='Redmond, WA'
-                >
-                    <li>
-                        Built an <Highlight>n-gram language model</Highlight> to predict the next words of incomplete user queries
-                    </li>
-                    <li>
-                        Integrated <Highlight>next word prediction</Highlight> into <Highlight>Bing</Highlight>'s autosuggestion pipeline to show relevant suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>23%</Highlight>
-                    </li>
-                    <li>
-                        Prototyped a <Highlight>recurrent neural network (LSTM) language model</Highlight> to further improve prediction relevance; captures semantic relationships and long-term dependencies
-                    </li>
-                </SubExperienceBlock>
                 <ExperienceBlock
                     position='Data Infrastructure Intern'
                     company='LinkedIn'
                     href='https://press.linkedin.com/about-linkedin'
-                    time='January 2017 - April 2017'
+                    time='Jan 2017 - Apr 2017'
                     location='Sunnyvale, CA'
                     icon='linkedin-colored'
                     techList={[
@@ -122,7 +114,7 @@ const MainSection = (props) => {
                                 Handles traffic generation, pipeline monitoring, metrics collection, and data validation
                             </li>
                             <li>
-                                Used by media teams for experimentation, analyzing metrics, and monitoring for failures
+                                Used by media teams for experimentation, analyzing metrics, and failure monitoring
                             </li>
                         </ul>
                     </li>
@@ -131,24 +123,23 @@ const MainSection = (props) => {
                     position='Software Engineering Intern'
                     company='Yahoo!'
                     href='https://about.yahoo.com/'
-                    time='May 2016 - August 2016'
+                    time='May 2016 - Aug 2016'
                     location='Sunnyvale, CA'
                     icon='yahoo'
                     techList={[
                         'ES6',
-                        'Perl',
-                        'Node.js',
                         'React',
                         'Fluxible',
+                        'Node.js',
                         'MySQL',
                         'AWS',
                     ]}
                 >
                     <li>
-                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> as part of the web team; built core UI components and API endpoints
+                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> as part of the web team; served <Highlight>thousands</Highlight> of TV shows and movies
                     </li>
                     <li>
-                        Integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
+                        Built core React components, backend APIs, and integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
                     </li>
                     <li>
                         Setup the entire backend integration testing infrastructure for Yahoo! View
@@ -157,9 +148,9 @@ const MainSection = (props) => {
             </GeneralBlock>
             <GeneralBlock title='Projects'>
                 <ProjectsBlock
-                    title='KSwap'
-                    href='https://github.com/zuqini/'
-                    time='December 2018 - Present'
+                    title='KaeSwap'
+                    href='https://kaeswap.com'
+                    time='Dec 2018 - Present'
                     techList={[
                         'Node.js',
                         'React',
@@ -167,12 +158,24 @@ const MainSection = (props) => {
                         'Firebase',
                     ]}
                 >
-                    A web platform where music enthusiasts can trade and resale albums and merchandise
+                    A platform for K-Pop enthusiasts to trade and resale albums and merch; had <Highlight>thousands</Highlight> of page views and <Highlight>hundreds</Highlight> of active users at KCON LA '19 during peak traffic
+                </ProjectsBlock>
+                <ProjectsBlock
+                    title='K-Pop Utility Discord Bots'
+                    href='https://github.com/JustYourPythonEnvironment'
+                    time='Aug 2018 - Present'
+                    techList={[
+                        'Node.js',
+                        'Firebase',
+                        'Discord API',
+                    ]}
+                >
+                    Discord bots that: sorts media into respective channels; stores GIFs into DB and reacts; and reports daily K-Pop news scraped from various sites. Used by <Highlight>multiple K-Pop servers</Highlight>.
                 </ProjectsBlock>
                 <ProjectsBlock
                   title='LUQL'
-                  href='https://luql.io/'
-                  time='January 2017 - September 2017'
+                  href='https://medium.com/@luql/announcing-luql-a-better-way-to-explore-a-city-2ec11185cbf6'
+                  time='Jan 2017 - Sept 2017'
                   techList={[
                         'Node.js',
                         'React-Native',
@@ -180,19 +183,19 @@ const MainSection = (props) => {
                         'Firebase',
                     ]}
                 >
-                    An iOS platform to help locals create and guide tours for travellers, tourists, and adventurers
+                    A mobile platform for locals and tourists to post, discover, and book tours around their area
                 </ProjectsBlock>
                 <ProjectsBlock
                   title='MelonWatch'
                   href='https://github.com/zuqini/MelonWatch'
-                  time='August 2017'
+                  time='Aug 2017'
                   techList={[
                         'C++',
                         'OpenGL',
                         'OpenAL',
                     ]}
                 >
-                    An 3D OpenGL FPS; built the entire game engine from scratch featuring dynamic shadow mapping, a particle system, and a physics engine
+                    A 3D OpenGL FPS; built from scratch featuring dynamic shadow mapping, particle system, and physics engine
                 </ProjectsBlock>
             </GeneralBlock>
         </div>

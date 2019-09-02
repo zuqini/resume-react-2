@@ -9,7 +9,7 @@ import SideSection from '../side-section/index.jsx';
 const App = (props) => {
     return (
         <div className='resume-container'>
-            <Header term='4B' />
+            <Header />
             <MainSection />
             <SideSection />
         </div>

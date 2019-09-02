@@ -19,6 +19,7 @@ const SideSection = (props) => {
                     <li>Scala</li>
                     <li>C++</li>
                     <li>C</li>
+                    <li>GraphQL</li>
                     <li>HTML / CSS</li>
                     <li>ARM Assembly</li>
                 </SkillsBlock>
@@ -26,6 +27,7 @@ const SideSection = (props) => {
                     <li>TensorFlow</li>
                     <li>React / React Native</li>
                     <li>Redux</li>
+                    <li>MobX</li>
                     <li>Angular</li>
                     <li>Express</li>
                     <li>Less / Sass</li>
