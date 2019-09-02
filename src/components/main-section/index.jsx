@@ -195,7 +195,7 @@ const MainSection = (props) => {
                         'OpenAL',
                     ]}
                 >
-                    A 3D OpenGL FPS; built from scratch featuring dynamic shadow mapping, particle system, and physics engine
+                    A 3D OpenGL first-person shooter; built completely from scratch featuring dynamic shadow mapping, particle system, and physics engine
                 </ProjectsBlock>
             </GeneralBlock>
         </div>
