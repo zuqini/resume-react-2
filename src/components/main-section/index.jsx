@@ -68,6 +68,7 @@ const MainSection = (props) => {
                         'Python',
                         'TypeScript',
                         'TensorFlow',
+                        'MS Azure',
                         'ML.NET',
                         'LINQ',
                     ]}
@@ -76,18 +77,18 @@ const MainSection = (props) => {
                         Designed, trained, and integrated a new <Highlight>autosuggest ranker</Highlight> into the Chromium-based Edge browser; metrics show <Highlight>parity</Highlight> against Chrome autosuggest
                     </li>
                     <li>
-                        Built a new service for ranking and serving non-prefix-match autosuggestions; serves <Highlight>2,500~ QPS per machine</Highlight> and has a 99.9th percentile latency of <Highlight>15~ ms</Highlight>
+                        Built and deployed an Azure microservice for serving non-prefix-match autosuggestions; handles <Highlight>2,500~ QPS</Highlight> per instance and has a 99.9th percentile latency of <Highlight>15~ ms</Highlight>
                     </li>
                     <li>
                         Built an <Highlight>n-gram</Highlight> and a <Highlight>recurrent neural network language model</Highlight> to predict the next words of incomplete user queries
                         <ul>
                             <li>
-                                Integrated <Highlight>next word prediction</Highlight> into Bing autosuggest to show relevant suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>23%</Highlight>
+                                Integrated <Highlight>next word prediction</Highlight> into Bing's autosuggest pipeline to show relevant suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>23%</Highlight>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        Helped tune and improve the autosuggest relevance of Windows Search Box, legacy Edge, and Bing.com through analyzing user patterns and experimentation
+                        Helped tune and improve the autosuggest relevance of Windows Search Box, Edge, and Bing.com through analyzing user patterns and experimentation
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -161,7 +162,7 @@ const MainSection = (props) => {
                     A platform for K-Pop enthusiasts to trade and resale albums and merch; had <Highlight>thousands</Highlight> of page views and <Highlight>hundreds</Highlight> of active users at KCON LA '19 during peak traffic
                 </ProjectsBlock>
                 <ProjectsBlock
-                    title='K-Pop Utility Discord Bots'
+                    title='K-Pop Discord Utility Bots'
                     href='https://github.com/JustYourPythonEnvironment'
                     time='Aug 2018 - Present'
                     techList={[
@@ -170,7 +171,7 @@ const MainSection = (props) => {
                         'Discord API',
                     ]}
                 >
-                    Discord bots that: sorts media into respective channels; stores GIFs into DB and reacts; and reports daily K-Pop news scraped from various sites. Used by <Highlight>multiple K-Pop servers</Highlight>.
+                    Discord chatbots that: sort media into respective channels; store GIFs into DB for reactions; and report daily K-Pop news scraped from various sites. Used by <Highlight>multiple K-Pop servers</Highlight>.
                 </ProjectsBlock>
                 <ProjectsBlock
                   title='LUQL'

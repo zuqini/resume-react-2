@@ -42,11 +42,12 @@ const SideSection = (props) => {
                 <SkillsBlock title='Tools'>
                     <li>Spark</li>
                     <li>Hadoop</li>
-                    <li>Kafka</li>
+                    <li>AWS</li>
+                    <li>Microsoft Azure</li>
                     <li>Node.js</li>
-                    <li>Firebase</li>
+                    <li>Docker</li>
                     <li>Git</li>
-                    <li>Maven</li>
+                    <li>Firebase</li>
                     <li>Jupyter Notebook</li>
                 </SkillsBlock>
             </GeneralBlock>
