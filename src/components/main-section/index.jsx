@@ -128,10 +128,9 @@ const MainSection = (props) => {
                     location='Sunnyvale, CA'
                     icon='yahoo'
                     techList={[
-                        'ES6',
+                        'Node.js',
                         'React',
                         'Fluxible',
-                        'Node.js',
                         'MySQL',
                         'AWS',
                     ]}

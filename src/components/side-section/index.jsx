@@ -57,7 +57,7 @@ const SideSection = (props) => {
             <GeneralBlock title='Interests'>
                 <InterestsBlock>
                     <li>Build apps</li>
-                    <li>Make music</li>
+                    <li>Create music</li>
                     <li>Catch pokémon</li>
                 </InterestsBlock>
             </GeneralBlock>
