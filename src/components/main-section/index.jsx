@@ -74,7 +74,7 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Designed, trained, and integrated a new <Highlight>autosuggest ranker</Highlight> into the Chromium-based Edge browser; metrics show <Highlight>parity</Highlight> against Chrome autosuggest
+                        Designed, trained, and integrated a new <Highlight>autosuggest ranker</Highlight> for the release of the Chromium-based Edge browser; metrics show <Highlight>parity</Highlight> against Chrome autosuggest
                     </li>
                     <li>
                         Built and deployed an Azure microservice for serving non-prefix-match autosuggestions; handles <Highlight>2,500~ QPS</Highlight> per instance and has a 99.9th percentile latency of <Highlight>15~ ms</Highlight>
@@ -99,7 +99,7 @@ const MainSection = (props) => {
                     location='Sunnyvale, CA'
                     icon='linkedin-colored'
                     techList={[
-                        'Java 8',
+                        'Java',
                         'Kafka',
                         'MySQL',
                         'Ambry',
@@ -158,7 +158,7 @@ const MainSection = (props) => {
                         'Firebase',
                     ]}
                 >
-                    A platform for K-Pop enthusiasts to trade and resale albums and merch; had <Highlight>thousands</Highlight> of page views and <Highlight>hundreds</Highlight> of active users at KCON LA '19 during peak traffic
+                    A platform for K-Pop enthusiasts to trade and resale albums and merch; had <Highlight>thousands</Highlight> of pageviews and <Highlight>hundreds</Highlight> of active users at KCON LA '19 during peak traffic
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='K-Pop Discord Utility Bots'

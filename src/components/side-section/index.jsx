@@ -16,9 +16,9 @@ const SideSection = (props) => {
                     <li>Python</li>
                     <li>Java</li>
                     <li>C#</li>
-                    <li>Scala</li>
                     <li>C++</li>
                     <li>C</li>
+                    <li>Scala</li>
                     <li>GraphQL</li>
                     <li>HTML / CSS</li>
                     <li>ARM Assembly</li>
@@ -30,7 +30,7 @@ const SideSection = (props) => {
                     <li>MobX</li>
                     <li>Angular</li>
                     <li>Express</li>
-                    <li>Less / Sass</li>
+                    <li>Sass / Less</li>
                     <li>OpenGL</li>
                     <li>Android SDK</li>
                 </SkillsBlock>
