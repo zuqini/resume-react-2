@@ -77,13 +77,13 @@ const MainSection = (props) => {
                         Designed, trained, and integrated a new <Highlight>autosuggest ranker</Highlight> for the release of the Chromium-based Edge browser; metrics show <Highlight>parity</Highlight> against Chrome autosuggest
                     </li>
                     <li>
-                        Built and deployed an Azure microservice for serving non-prefix-match autosuggestions; handles <Highlight>2,500~ QPS</Highlight> per instance and has a 99.9th percentile latency of <Highlight>15~ ms</Highlight>
+                        Built and deployed an Azure microservice for serving non-prefix-match autosuggestions; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99.9th percentile latency of <Highlight>~15 ms</Highlight>
                     </li>
                     <li>
                         Built an <Highlight>n-gram</Highlight> and a <Highlight>recurrent neural network language model</Highlight> to predict the next words of incomplete user queries
                         <ul>
                             <li>
-                                Integrated <Highlight>next word prediction</Highlight> into Bing's autosuggest pipeline to show relevant suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>23%</Highlight>
+                                Integrated <Highlight>next word prediction</Highlight> into Bing's autosuggest pipeline to show relevant suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>~20%</Highlight>
                             </li>
                         </ul>
                     </li>
@@ -158,7 +158,7 @@ const MainSection = (props) => {
                         'Firebase',
                     ]}
                 >
-                    A platform for K-Pop enthusiasts to trade and resale albums and merch; had <Highlight>thousands</Highlight> of pageviews and <Highlight>hundreds</Highlight> of active users at KCON LA '19 during peak traffic
+                    A platform for K-Pop enthusiasts to trade and resale their albums/posters/merch; received <Highlight>thousands</Highlight> of pageviews and <Highlight>hundreds</Highlight> of concurrent active users during the KCON LA event
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='K-Pop Discord Utility Bots'
@@ -170,7 +170,7 @@ const MainSection = (props) => {
                         'Discord API',
                     ]}
                 >
-                    Discord chatbots that: sort media into respective channels; store GIFs into DB for reactions; and report daily K-Pop news scraped from various sites. Used by <Highlight>multiple K-Pop servers</Highlight>.
+                    Discord chatbots that: sort media into respective channels; store GIFs into DB for reactions; and report daily K-Pop news scraped from various sites. Used by <Highlight>multiple K-Pop servers</Highlight>
                 </ProjectsBlock>
                 <ProjectsBlock
                   title='LUQL'
