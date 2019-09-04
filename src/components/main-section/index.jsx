@@ -109,13 +109,13 @@ const MainSection = (props) => {
                         Helped launch LinkedIn's <Highlight>media infrastructure</Highlight> for processing and serving media assets
                     </li>
                     <li>
-                        Designed, built, and released a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for the media processing infrastructure:
+                        Designed, built, and released a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for the media processing infrastructure
                         <ul>
                             <li>
-                                Handles traffic generation, pipeline monitoring, metrics collection, and data validation
+                                Handles scheduling, traffic generation, metrics collection, data validation, and alerting
                             </li>
                             <li>
-                                Used by media teams for experimentation, analyzing metrics, and failure monitoring
+                                Automates customizable tests and used for experiments and failure monitoring
                             </li>
                         </ul>
                     </li>

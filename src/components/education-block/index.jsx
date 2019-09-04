@@ -7,7 +7,7 @@ const EducationBlock = (props) => {
        <div className='education-block'>
            <p className='uni bold-text'>University of Waterloo</p>
            <p className='degree med-text'>Bachelor of Software Engineering</p>
-           <p className='term'>Sept. 2013 – April. 2018</p>
+           <p className='term'>Sept 2013 – Apr 2018</p>
        </div>
     );
 };
