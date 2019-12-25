@@ -17,37 +17,37 @@ const SideSection = (props) => {
                     <li>Java</li>
                     <li>C#</li>
                     <li>C++</li>
-                    <li>C</li>
                     <li>Scala</li>
-                    <li>GraphQL</li>
                     <li>HTML / CSS</li>
-                    <li>ARM Assembly</li>
                 </SkillsBlock>
                 <SkillsBlock title='Frameworks'>
-                    <li>TensorFlow</li>
                     <li>React / React Native</li>
+                    <li>Next.js</li>
+                    <li>Apollo GraphQL</li>
+                    <li>TensorFlow</li>
                     <li>Redux</li>
                     <li>MobX</li>
-                    <li>Angular</li>
                     <li>Express</li>
+                    <li>Flask</li>
+                    <li>Angular</li>
                     <li>Sass / Less</li>
                     <li>OpenGL</li>
                     <li>Android SDK</li>
                 </SkillsBlock>
                 <SkillsBlock title='Databases'>
-                    <li>MySQL</li>
                     <li>PostgreSQL</li>
+                    <li>MySQL</li>
                     <li>MongoDB</li>
                 </SkillsBlock>
                 <SkillsBlock title='Tools'>
                     <li>Spark</li>
                     <li>AWS</li>
-                    <li>Microsoft Azure</li>
                     <li>Node.js</li>
+                    <li>Microsoft Azure</li>
                     <li>Docker</li>
                     <li>Firebase</li>
                     <li>Hadoop</li>
-                    <li>Jupyter Notebook</li>
+                    <li>Jupyter</li>
                     <li>Git</li>
                 </SkillsBlock>
             </GeneralBlock>

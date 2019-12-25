@@ -77,7 +77,7 @@ const MainSection = (props) => {
                         Designed, trained, and integrated a new <Highlight>autosuggest ranker</Highlight> for the release of the Chromium-based Edge browser; metrics show <Highlight>parity</Highlight> against Chrome autosuggest
                     </li>
                     <li>
-                        Built and deployed an Azure microservice for serving non-prefix-match autosuggestions; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99.9th percentile latency of <Highlight>~15 ms</Highlight>
+                        Built and deployed an Azure microservice for serving non-prefix-match autosuggestions; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
                     </li>
                     <li>
                         Built an <Highlight>n-gram</Highlight> and a <Highlight>recurrent neural network language model</Highlight> to predict the next words of incomplete user queries
@@ -88,7 +88,7 @@ const MainSection = (props) => {
                         </ul>
                     </li>
                     <li>
-                        Helped tune and improve the autosuggest relevance of Windows Search Box, Edge, and Bing.com through analyzing user patterns and experimentation
+                        Helped tune and improve the autosuggest relevance of Windows Search Box, Edge, and Bing.com through analyzing query patterns and experimentation
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -115,7 +115,7 @@ const MainSection = (props) => {
                                 Handles scheduling, traffic generation, metrics collection, data validation, and alerting
                             </li>
                             <li>
-                                Automates customizable tests and used for experiments and failure monitoring
+                                Used for failure monitoring, experimentation, and automating customizable tests
                             </li>
                         </ul>
                     </li>
@@ -126,7 +126,7 @@ const MainSection = (props) => {
                     href='https://about.yahoo.com/'
                     time='May 2016 - Aug 2016'
                     location='Sunnyvale, CA'
-                    icon='yahoo'
+                    icon='yahoo-2019'
                     techList={[
                         'Node.js',
                         'React',
@@ -152,16 +152,18 @@ const MainSection = (props) => {
                     href='https://kaeswap.com'
                     time='Dec 2018 - Present'
                     techList={[
-                        'Node.js',
-                        'React',
-                        'Redux',
-                        'Firebase',
+                        'Next.js',
+                        'Apollo GraphQL',
+                        'Flask',
+                        'Postgres',
+                        'AWS S3',
+                        'Docker',
                     ]}
                 >
-                    A platform for K-Pop enthusiasts to trade and resale their albums/posters/merch; received <Highlight>thousands</Highlight> of pageviews and <Highlight>hundreds</Highlight> of concurrent active users during the KCON LA event
+                    A platform for K-pop enthusiasts to trade and resale their albums/posters/merch; received <Highlight>thousands</Highlight> of pageviews and <Highlight>hundreds</Highlight> of concurrent active users during the KCON LA event
                 </ProjectsBlock>
                 <ProjectsBlock
-                    title='K-Pop Discord Utility Bots'
+                    title='Discord Utility Bots'
                     href='https://github.com/JustYourPythonEnvironment'
                     time='Aug 2018 - Present'
                     techList={[
@@ -170,7 +172,7 @@ const MainSection = (props) => {
                         'Discord API',
                     ]}
                 >
-                    Discord chatbots that: sort media into respective channels; store GIFs into DB for reactions; and report daily K-Pop news scraped from various sites. Used by <Highlight>multiple K-Pop servers</Highlight>
+                    Chatbots that power <Highlight>additional functionalities</Highlight> on top of Discord servers: custom emoji/gif and sticker reactions, media sorting and archiving, lyrics/YouTube scraper, and logging
                 </ProjectsBlock>
                 <ProjectsBlock
                   title='LUQL'
