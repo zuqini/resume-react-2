@@ -26,7 +26,7 @@ const SideSection = (props) => {
                 <SkillsBlock title='Frameworks'>
                     <p className='subheader'>Web</p>
                     <ul>
-                        <li>React / Next.js</li>
+                        <li>React</li>
                         <li>Apollo GraphQL</li>
                         <li>Express</li>
                         <li>Flask</li>
