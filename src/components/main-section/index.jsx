@@ -10,48 +10,6 @@ import Highlight from '../highlight/index.jsx';
 import Italic from '../italic/index.jsx';
 
 const MainSection = (props) => {
-    const DeprecatedProjects = [
-        (
-            <ProjectsBlock
-                title='VReq'
-                time='November 2014'
-                techList={[
-                    'D3.js',
-                    'JQuery',
-                    'Waterloo Open Data API',
-                ]}
-            >
-                A <Highlight>D3.js</Highlight> representation of all course pre-requisites at the University of Waterloo
-            </ProjectsBlock>
-        ),
-        (
-            <ProjectsBlock
-                title='Terre'
-                href='https://github.com/zuqini/Terre'
-                time='February 2015'
-                techList={[
-                    'C++',
-                    'Cocos2d-X',
-                ]}
-            >
-                A physics simulation sandbox for building star systems with dynamic lighting effects
-            </ProjectsBlock>
-        ),
-        (<ProjectsBlock
-            title='Angora'
-            href='https://github.com/jasonf7/Angora'
-            time='January 2016'
-            techList={[
-                'Node.js',
-                'Angular',
-                'MongoDB',
-                'Jade/Pug',
-                'Less',
-            ]}
-        >
-            A platform where users explore various hairstyles and review local hairstylists
-        </ProjectsBlock>)
-    ];
     return (
         <div className='main-section'>
             <GeneralBlock title='Experience'>
@@ -67,9 +25,10 @@ const MainSection = (props) => {
                         'C#',
                         'Python',
                         'TypeScript',
-                        'TensorFlow',
                         'MS Azure',
                         'ML.NET',
+                        'TensorFlow',
+                        '.NET',
                         'LINQ',
                     ]}
                 >
@@ -199,6 +158,46 @@ const MainSection = (props) => {
                 >
                     A 3D OpenGL first-person shooter; built completely from scratch featuring dynamic shadow mapping, particle system, and physics engine
                 </ProjectsBlock>
+                {
+                    /*
+                    <ProjectsBlock
+                        title='VReq'
+                        time='November 2014'
+                        techList={[
+                            'D3.js',
+                            'JQuery',
+                            'Waterloo Open Data API',
+                        ]}
+                    >
+                        A <Highlight>D3.js</Highlight> representation of all course pre-requisites at the University of Waterloo
+                    </ProjectsBlock>
+                    <ProjectsBlock
+                        title='Terre'
+                        href='https://github.com/zuqini/Terre'
+                        time='February 2015'
+                        techList={[
+                            'C++',
+                            'Cocos2d-X',
+                        ]}
+                    >
+                        A physics simulation sandbox for building star systems with dynamic lighting effects
+                    </ProjectsBlock>
+                    <ProjectsBlock
+                        title='Angora'
+                        href='https://github.com/jasonf7/Angora'
+                        time='January 2016'
+                        techList={[
+                            'Node.js',
+                            'Angular',
+                            'MongoDB',
+                            'Jade/Pug',
+                            'Less',
+                        ]}
+                    >
+                        A platform where users explore various hairstyles and review local hairstylists
+                    </ProjectsBlock>
+                    */
+                }
             </GeneralBlock>
         </div>
     );

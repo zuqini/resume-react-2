@@ -3,16 +3,30 @@
 
     .skills-title {
         font-size: 20px;
+        font-weight: 400;
     }
 
     .content {
-        margin-left: 30px;
-        list-style-type: disc;
-
-        >li {
+        .subheader {
             font-size: 16px;
-            margin-top: 7px;
-            line-height: 1.1;
+            font-weight: 400;
+            margin: 6px 4px;
+
+            &:before {
+                content: '>';
+                margin-right: 6px;
+            }
+        }
+
+        >ul {
+            margin-left: 30px;
+            list-style-type: disc;
+
+            >li {
+                font-size: 16px;
+                margin-top: 7px;
+                line-height: 1.1;
+            }
         }
     }
 }

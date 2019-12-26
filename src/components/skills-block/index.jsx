@@ -6,8 +6,8 @@ const SkillsBlock = (props) => {
     const { title, children } = props;
     return (
         <div className='skills-block'>
-            <p className='skills-title med-text'>{title}</p>
-            <ul className='content'>{children}</ul>
+            <p className='skills-title'>{title}</p>
+            <div className='content'>{children}</div>
         </div>
     );
 };

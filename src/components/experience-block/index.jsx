@@ -18,7 +18,7 @@ const ExperienceBlock = (props) => {
                     <Icon isCompany icon={icon} />
                 </span>
             </a>
-            <ul className='content'>
+            <ul>
                 {children}
             </ul>
         </div>
