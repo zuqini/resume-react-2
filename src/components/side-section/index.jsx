@@ -33,13 +33,13 @@ const SideSection = (props) => {
                         <li>Redux</li>
                         <li>MobX</li>
                         <li>Angular</li>
-                        <li>Sass / Less</li>
                     </ul>
                     <p className='subheader'>Data</p>
                     <ul>
                         <li>Spark</li>
                         <li>ML.NET</li>
                         <li>TensorFlow</li>
+                        <li>Hadoop</li>
                     </ul>
                     <p className='subheader'>Application</p>
                     <ul>

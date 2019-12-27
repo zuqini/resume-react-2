@@ -108,6 +108,7 @@ const MainSection = (props) => {
             <GeneralBlock title='Projects'>
                 <ProjectsBlock
                     title='KaeSwap'
+                    type='Website'
                     href='https://kaeswap.com'
                     time='Dec 2018 - Present'
                     techList={[
@@ -123,6 +124,7 @@ const MainSection = (props) => {
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='Discord Utility Bots'
+                    type='Node.js Client'
                     href='https://github.com/JustYourPythonEnvironment'
                     time='Aug 2018 - Present'
                     techList={[
@@ -135,11 +137,12 @@ const MainSection = (props) => {
                 </ProjectsBlock>
                 <ProjectsBlock
                   title='LUQL'
+                  type='iOS App'
                   href='https://medium.com/@luql/announcing-luql-a-better-way-to-explore-a-city-2ec11185cbf6'
                   time='Jan 2017 - Sept 2017'
                   techList={[
                         'Node.js',
-                        'React-Native',
+                        'React Native',
                         'MobX',
                         'Firebase',
                     ]}
@@ -148,6 +151,7 @@ const MainSection = (props) => {
                 </ProjectsBlock>
                 <ProjectsBlock
                   title='MelonWatch'
+                  type='OpenGL App'
                   href='https://github.com/zuqini/MelonWatch'
                   time='Aug 2017'
                   techList={[
