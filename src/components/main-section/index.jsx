@@ -24,30 +24,27 @@ const MainSection = (props) => {
                     techList={[
                         'C#',
                         'Python',
-                        'TypeScript',
-                        'MS Azure',
+                        'Scala',
+                        'Spark',
+                        'Azure Data Factory',
                         'ML.NET',
-                        'TensorFlow',
-                        '.NET',
-                        'LINQ',
+                        'TensorFlow'
                     ]}
                 >
                     <li>
-                        Designed, trained, and integrated a new <Highlight>autosuggest ranker</Highlight> for the release of the Chromium-based Edge browser; metrics show <Highlight>parity</Highlight> against Chrome autosuggest
+                        Developed a classifier for suppressing bad autosuggest and shipped <Highlight>block-level blending</Highlight> using the suppression classifier and data-driven heuristics; Achieved F1-score of <Highlight>0.91</Highlight>
                     </li>
                     <li>
-                        Built and deployed an Azure microservice for serving non-prefix-match autosuggestions; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
+                        Developed and shipped the <Highlight>autosuggest ranker</Highlight> for the Chromium-based Edge browser; side-by-side metrics showed <Highlight>parity</Highlight> against Chrome autosuggest
                     </li>
                     <li>
-                        Built an <Highlight>n-gram</Highlight> and a <Highlight>recurrent neural network language model</Highlight> to predict the next words of incomplete user queries
-                        <ul>
-                            <li>
-                                Integrated <Highlight>next word prediction</Highlight> into Bing's autosuggest pipeline to show relevant suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>~20%</Highlight>
-                            </li>
-                        </ul>
+                        Built and deployed an Azure microservice for serving non-prefix-match autosuggest; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
                     </li>
                     <li>
-                        Helped tune and improve the autosuggest relevance of Windows Search Box, Edge, and Bing.com through analyzing query patterns and experimentation
+                        Developed an <Highlight>n-gram</Highlight> and an <Highlight>LSTM</Highlight> language model for predicting the next words of incomplete queries; improved autosuggest coverage by <Highlight>~20%</Highlight>
+                    </li>
+                    <li>
+                        Maintained autosuggest infrastructure and tuned the relevance of Windows Search Box, Edge, and Bing.com autosuggest through analyzing query patterns and experimentation
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -74,7 +71,7 @@ const MainSection = (props) => {
                                 Handles scheduling, traffic generation, metrics collection, data validation, and alerting
                             </li>
                             <li>
-                                Used for failure monitoring, experimentation, and automating customizable tests
+                                Used for experimentation, failure monitoring, and automating customizable tests
                             </li>
                         </ul>
                     </li>
@@ -95,7 +92,7 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> as part of the web team; served <Highlight>thousands</Highlight> of TV shows and movies
+                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> from scratch as part of the web team; served <Highlight>thousands</Highlight> of TV shows and movies
                     </li>
                     <li>
                         Built core React components, backend APIs, and integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
@@ -123,7 +120,7 @@ const MainSection = (props) => {
                     A platform for K-pop enthusiasts to trade and resale their albums/posters/merch; received <Highlight>thousands</Highlight> of pageviews and <Highlight>hundreds</Highlight> of concurrent active users during the KCON LA event
                 </ProjectsBlock>
                 <ProjectsBlock
-                    title='Discord Utility Bots'
+                    title='Discord Helper Bots'
                     type='Node.js Client'
                     href='https://github.com/JustYourPythonEnvironment'
                     time='Aug 2018 - Present'
