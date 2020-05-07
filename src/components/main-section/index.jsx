@@ -15,6 +15,7 @@ const MainSection = (props) => {
             <GeneralBlock title='Experience'>
                 <ExperienceBlock
                     position='Software Engineer'
+                    team='Autosuggest Relevance'
                     company='Microsoft'
                     href='https://www.microsoft.com/en-us/about/default.aspx'
                     time='Sept 2018 - Present'
@@ -32,23 +33,24 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Developed a classifier for suppressing bad autosuggest and shipped <Highlight>block-level blending</Highlight> using the suppression classifier and data-driven heuristics; Achieved F1-score of <Highlight>0.91</Highlight>
+                        Developed a classifier for suppressing bad autosuggest and implemented <Highlight>suggestion-type ranking</Highlight> using the classifier and data-driven heuristics; Achieved F1-score of <Highlight>0.91</Highlight>
                     </li>
                     <li>
-                        Developed and shipped the <Highlight>autosuggest ranker</Highlight> for the Chromium-based Edge browser; side-by-side metrics showed <Highlight>parity</Highlight> against Chrome autosuggest
+                        Developed a new <Highlight>autosuggest ranker</Highlight> for the release of the Chromium-based Edge browser using a regression model; side-by-side metrics showed <Highlight>parity</Highlight> against Chrome autosuggest
                     </li>
                     <li>
-                        Built and deployed an Azure microservice for serving non-prefix-match autosuggest; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
+                        Built and deployed an Azure microservice for serving all non-prefix-match autosuggest; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
                     </li>
                     <li>
-                        Developed an <Highlight>n-gram</Highlight> and an <Highlight>LSTM</Highlight> language model for predicting the next words of incomplete queries; improved autosuggest coverage by <Highlight>~20%</Highlight>
+                        Developed an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for predicting the next words of user queries; improved user engagement by increasing the autosuggest coverage by <Highlight>~20%</Highlight>
                     </li>
                     <li>
-                        Maintained autosuggest infrastructure and tuned the relevance of Windows Search Box, Edge, and Bing.com autosuggest through analyzing query patterns and experimentation
+                        Maintained data pipelines and tuned the relevance of Windows Search Box, Edge, and Bing.com autosuggest through analyzing query patterns and experimentation
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
                     position='Data Infrastructure Intern'
+                    team='Media Infastructure'
                     company='LinkedIn'
                     href='https://press.linkedin.com/about-linkedin'
                     time='Jan 2017 - Apr 2017'
@@ -62,22 +64,23 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Helped launch LinkedIn's <Highlight>media infrastructure</Highlight> for processing and serving media assets
+                        Helped launch LinkedIn's <Highlight>media infrastructure</Highlight> for processing and serving all media assets
                     </li>
                     <li>
-                        Designed, built, and released a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for the media processing infrastructure
+                        Designed, built, and released a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> service for the media processing infrastructure
                         <ul>
                             <li>
                                 Handles scheduling, traffic generation, metrics collection, data validation, and alerting
                             </li>
                             <li>
-                                Used for experimentation, failure monitoring, and automating customizable tests
+                                Used for experimentation, automating customizable tests, and failure monitoring
                             </li>
                         </ul>
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
                     position='Software Engineering Intern'
+                    team='Yahoo! View'
                     company='Yahoo!'
                     href='https://about.yahoo.com/'
                     time='May 2016 - Aug 2016'
@@ -98,7 +101,7 @@ const MainSection = (props) => {
                         Built core React components, backend APIs, and integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
                     </li>
                     <li>
-                        Setup the entire backend integration testing infrastructure for Yahoo! View
+                        Setup the entire backend functional testing infrastructure and tests for Yahoo! View
                     </li>
                 </ExperienceBlock>
             </GeneralBlock>
