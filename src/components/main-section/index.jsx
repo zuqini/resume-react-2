@@ -109,7 +109,7 @@ const MainSection = (props) => {
                 <ProjectsBlock
                     title='KaeSwap'
                     type='Website'
-                    href='https://kaeswap.com'
+                    href='https://v1.kaeswap.com/'
                     time='Dec 2018 - Present'
                     techList={[
                         'Next.js',
