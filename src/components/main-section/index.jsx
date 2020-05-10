@@ -29,7 +29,8 @@ const MainSection = (props) => {
                         'Spark',
                         'Azure Data Factory',
                         'ML.NET',
-                        'TensorFlow'
+                        'TensorFlow',
+                        'TypeScript',
                     ]}
                 >
                     <li>
@@ -95,13 +96,13 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> from scratch as part of the web team; served <Highlight>thousands</Highlight> of TV shows and movies
+                        Developed and launched <a href='https://techcrunch.com/2016/08/08/yahoo-launches-a-tv-watching-site-yahoo-view-in-partnership-with-hulu/'><Highlight>Yahoo! View</Highlight></a> entirely within a strict timeline of 2 months as part of the web team; served <Highlight>thousands</Highlight> of TV shows and movies
                     </li>
                     <li>
-                        Built core React components, backend APIs, and integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
+                        Built core React components, backend business logic, and setup the functional testing infrastructure and tests for Yahoo! View
                     </li>
                     <li>
-                        Setup the entire backend functional testing infrastructure and tests for Yahoo! View
+                        Integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
                     </li>
                 </ExperienceBlock>
             </GeneralBlock>
