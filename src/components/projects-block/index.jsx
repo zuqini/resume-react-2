@@ -5,9 +5,9 @@ import './styles.scss';
 const ProjectsBlock = (props) => {
     const {title, type, href, time, techList, children } = props;
     return (
-        <a href={href} className='projects-block'>
+        <div className='projects-block'>
             <div className='project-header clear-fix'>
-                <p className='project-title med-text'>{title}</p>
+                <p className='project-title med-text'><a href={href}>{title}</a></p>
                 <span className='separator'>|</span>
                 <p className='type bold-text'>{type}</p>
                 <span className='separator'>|</span>
@@ -17,7 +17,7 @@ const ProjectsBlock = (props) => {
             <div className='content'>
                 {children}
             </div>
-        </a>
+        </div>
     );
 };
 
