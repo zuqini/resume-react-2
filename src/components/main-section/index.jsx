@@ -34,10 +34,10 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Developed a classifier for suppressing bad autosuggest and implemented <Highlight>suggestion-type ranking</Highlight> using the classifier and data-driven heuristics; Achieved F1-score of <Highlight>0.91</Highlight>
+                        Developed a classifier for suppressing bad autosuggest and implemented <Highlight>suggestion type ranking</Highlight> using the classifier with data-driven heuristics; Achieved an F1-score of <Highlight>0.91</Highlight>
                     </li>
                     <li>
-                        Developed a new <Highlight>autosuggest ranker</Highlight> for the release of the Chromium-based Edge browser using a regression model; side-by-side metrics showed <Highlight>parity</Highlight> against Chrome autosuggest
+                        Developed the core <Highlight>autosuggest ranker</Highlight> of the Chromium-based Edge browser using a regression model; side-by-side metrics showed <Highlight>parity</Highlight> against Chrome autosuggest
                     </li>
                     <li>
                         Built and deployed an Azure microservice for serving all non-prefix-match autosuggest; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
@@ -81,7 +81,7 @@ const MainSection = (props) => {
                 </ExperienceBlock>
                 <ExperienceBlock
                     position='Software Engineering Intern'
-                    team='Yahoo! View'
+                    team='Yahoo! View Web'
                     company='Yahoo!'
                     href='https://about.yahoo.com/'
                     time='May 2016 - Aug 2016'
@@ -93,13 +93,15 @@ const MainSection = (props) => {
                         'Fluxible',
                         'MySQL',
                         'AWS',
+                        'Chai',
+                        'Mocha',
                     ]}
                 >
                     <li>
                         Developed and launched <a href='https://techcrunch.com/2016/08/08/yahoo-launches-a-tv-watching-site-yahoo-view-in-partnership-with-hulu/'><Highlight>Yahoo! View</Highlight></a> entirely within a strict timeline of 2 months as part of the web team; served <Highlight>thousands</Highlight> of TV shows and movies
                     </li>
                     <li>
-                        Built core React components, backend business logic, and setup the functional testing infrastructure and tests for Yahoo! View
+                        Built main React components conforming to UX design standards, backend business logic + APIs, and the functional testing infrastructure + tests for Yahoo! View
                     </li>
                     <li>
                         Integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
@@ -114,14 +116,14 @@ const MainSection = (props) => {
                     time='Dec 2018 - Present'
                     techList={[
                         'Next.js',
-                        'Apollo GraphQL',
+                        'Apollo GQL',
                         'Flask',
                         'Postgres',
                         'AWS S3',
                         'Docker',
                     ]}
                 >
-                    A platform for K-pop enthusiasts to trade and resale their albums/posters/merch; received <Highlight>thousands</Highlight> of pageviews and <Highlight>hundreds</Highlight> of concurrent active users during the KCON LA event
+                    A platform for fans to trade and resale their albums/posters/merch; received <Highlight>thousands</Highlight> of pageviews and <Highlight>hundreds</Highlight> of concurrent active users during the KCON LA event
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='Discord Helper Bots'
