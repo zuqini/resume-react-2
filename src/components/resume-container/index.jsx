@@ -10,8 +10,10 @@ const ResumeContainer = (props) => {
     return (
         <div className='resume-container'>
             <Header term='4B' />
-            <MainSection />
-            <SideSection />
+            <div className='main-container'>
+                <MainSection />
+                <SideSection />
+            </div>
         </div>
     );
 };

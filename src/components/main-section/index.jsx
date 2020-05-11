@@ -101,7 +101,7 @@ const MainSection = (props) => {
                         Developed and launched <a href='https://techcrunch.com/2016/08/08/yahoo-launches-a-tv-watching-site-yahoo-view-in-partnership-with-hulu/'><Highlight>Yahoo! View</Highlight></a> entirely within a strict timeline of 2 months as part of the web team; served <Highlight>thousands</Highlight> of TV shows and movies
                     </li>
                     <li>
-                        Built main React components conforming to UX design standards, backend business logic + APIs, and the functional testing infrastructure + tests for Yahoo! View
+                        Built React components in accordance with UX design standards; backend business logic and APIs; and the functional testing infrastructure + tests for Yahoo! View
                     </li>
                     <li>
                         Integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
