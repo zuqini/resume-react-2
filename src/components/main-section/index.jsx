@@ -19,7 +19,7 @@ const MainSection = (props) => {
                     company='Microsoft'
                     href='https://www.microsoft.com/en-us/about/default.aspx'
                     time='Sept 2018 - Present'
-                    subTime='Sept 2017 - Dec 2017'
+                    subTime='Intern @ Sept 2017 - Dec 2017'
                     location='Redmond, WA'
                     icon='microsoft'
                     techList={[
@@ -34,16 +34,16 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Developed a classifier for suppressing bad autosuggest and implemented <Highlight>suggestion type ranking</Highlight> using the classifier with data-driven heuristics; Achieved an F1-score of <Highlight>0.91</Highlight>
+                        Developed a classifier for suppressing unsuitable suggestion types and implemented <Highlight>AS-type ranking</Highlight> using the classifier with data-driven heuristics; Achieved an F1-score of <Highlight>0.91</Highlight>
                     </li>
                     <li>
                         Developed the core <Highlight>autosuggest ranker</Highlight> of the Chromium-based Edge browser using a regression model; side-by-side metrics showed <Highlight>parity</Highlight> against Chrome autosuggest
                     </li>
                     <li>
-                        Built and deployed an Azure microservice for serving all non-prefix-match autosuggest; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
+                        Built and deployed an Azure service for powering all non-prefix-match autosuggest; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
                     </li>
                     <li>
-                        Developed an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for predicting the next words of user queries; improved user engagement by increasing the autosuggest coverage by <Highlight>~20%</Highlight>
+                        Developed an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for predicting the next words of user queries; improved user engagement via increasing the autosuggest coverage by <Highlight>~20%</Highlight>
                     </li>
                     <li>
                         Maintained data pipelines and tuned the relevance of Windows Search Box, Edge, and Bing.com autosuggest through analyzing query patterns and experimentation
@@ -101,7 +101,7 @@ const MainSection = (props) => {
                         Developed and launched <a href='https://techcrunch.com/2016/08/08/yahoo-launches-a-tv-watching-site-yahoo-view-in-partnership-with-hulu/'><Highlight>Yahoo! View</Highlight></a> entirely within a strict timeline of 2 months as part of the web team; served <Highlight>thousands</Highlight> of TV shows and movies
                     </li>
                     <li>
-                        Built React components in accordance with UX design standards; backend business logic and APIs; and the functional testing infrastructure + tests for Yahoo! View
+                        Built React components in accordance with the UX design standards; backend business logic and APIs; and the functional testing infrastructure + tests for Yahoo! View
                     </li>
                     <li>
                         Integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
