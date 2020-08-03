@@ -15,7 +15,7 @@ const MainSection = (props) => {
             <GeneralBlock title='Experience'>
                 <ExperienceBlock
                     position='Software Engineer'
-                    team='Autosuggest Relevance'
+                    team='Autosuggest & Shopping Relevance'
                     company='Microsoft'
                     href='https://www.microsoft.com/en-us/about/default.aspx'
                     time='Sept 2018 - Present'
@@ -30,23 +30,27 @@ const MainSection = (props) => {
                         'Azure Data Factory',
                         'ML.NET',
                         'TensorFlow',
+                        'React',
                         'TypeScript',
                     ]}
                 >
                     <li>
-                        Developed a classifier for suppressing unsuitable suggestion types and implemented <Highlight>AS-type ranking</Highlight> using the classifier with data-driven heuristics; Achieved an F1-score of <Highlight>0.91</Highlight>
+                        Developed on <a href='https://www.microsoft.com/en-us/bing/commerce'><Highlight>Microsoft Bing for Commerce</Highlight></a> services and data pipelines to enable autosuggest for <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>Dynamics 365 Commerce</Highlight></a> and other large-scale retail customers
                     </li>
                     <li>
-                        Developed the core <Highlight>autosuggest ranker</Highlight> of the Chromium-based Edge browser using a regression model; side-by-side metrics showed <Highlight>parity</Highlight> against Chrome autosuggest
+                        Designed a classifier for suppressing suggestion types given context and achieved an F1-score of <Highlight>0.91</Highlight>; significantly decreased defect-rate and improved side-by-side judgment
                     </li>
                     <li>
-                        Built and deployed an Azure service for powering all non-prefix-match autosuggest; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
+                        Implemented the <Highlight>autosuggest ranker</Highlight> of the Chromium Edge browser using a regression model; side-by-side judgment showed similar performance as Chrome
                     </li>
                     <li>
-                        Developed an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for predicting the next words of user queries; improved user engagement via increasing the autosuggest coverage by <Highlight>~20%</Highlight>
+                        Built and maintained a service for powering all non-prefix-match autosuggest; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
                     </li>
                     <li>
-                        Maintained data pipelines and tuned the relevance of Windows Search Box, Edge, and Bing.com autosuggest through analyzing query patterns and experimentation
+                        Developed an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for predicting the next words of user queries; improved user engagement by increasing the autosuggest coverage by <Highlight>~20%</Highlight>
+                    </li>
+                    <li>
+                        Tuned the autosuggest relevance of Windows Search Box, Edge, and Bing.com through analyzing query patterns and experimentation
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -65,10 +69,10 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Helped launch LinkedIn's <Highlight>media infrastructure</Highlight> for processing and serving all media assets
+                        Helped launch LinkedIn's <Highlight>media infrastructure</Highlight> for processing and serving all digital assets
                     </li>
                     <li>
-                        Designed, built, and released a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> service for the media processing infrastructure
+                        Designed and deployed a distributed <Highlight>end-to-end validation</Highlight>/<Highlight>performance testing</Highlight> service
                         <ul>
                             <li>
                                 Handles scheduling, traffic generation, metrics collection, data validation, and alerting
@@ -98,10 +102,10 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Developed and launched <a href='https://techcrunch.com/2016/08/08/yahoo-launches-a-tv-watching-site-yahoo-view-in-partnership-with-hulu/'><Highlight>Yahoo! View</Highlight></a> entirely within a strict timeline of 2 months as part of the web team; served <Highlight>thousands</Highlight> of TV shows and movies
+                        Created <a href='https://techcrunch.com/2016/08/08/yahoo-launches-a-tv-watching-site-yahoo-view-in-partnership-with-hulu/'><Highlight>Yahoo! View</Highlight></a> as part of the web team; hosted <Highlight>thousands</Highlight> of TV shows and movies
                     </li>
                     <li>
-                        Built React components in accordance with the UX design standards; backend business logic and APIs; and the functional testing infrastructure + tests for Yahoo! View
+                        Implemented core UX components, optimized business APIs, and automated testing
                     </li>
                     <li>
                         Integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
