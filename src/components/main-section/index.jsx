@@ -27,30 +27,30 @@ const MainSection = (props) => {
                         'Python',
                         'Scala',
                         'Spark',
-                        'Azure Data Factory',
+                        'Azure',
                         'ML.NET',
                         'TensorFlow',
-                        'React',
+                        'Databricks',
                         'TypeScript',
                     ]}
                 >
                     <li>
-                        Developed on <a href='https://www.microsoft.com/en-us/bing/commerce'><Highlight>Microsoft Bing for Commerce</Highlight></a> services and data pipelines to enable autosuggest for <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>Dynamics 365 Commerce</Highlight></a> and other large-scale retail customers
+                        Developed on <a href='https://www.microsoft.com/en-us/bing/commerce'><Highlight>Microsoft Bing for Commerce</Highlight></a> services and data pipelines to provide intelligent autosuggest for <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>Dynamics 365 Commerce</Highlight></a> and large-scale retailers
                     </li>
                     <li>
-                        Designed a classifier for suppressing suggestion types given context and achieved an F1-score of <Highlight>0.91</Highlight>; significantly decreased defect-rate and improved side-by-side judgment
-                    </li>
-                    <li>
-                        Implemented the <Highlight>autosuggest ranker</Highlight> of the Chromium Edge browser using a regression model; side-by-side judgment showed similar performance as Chrome
+                        Designed a classifier for suppressing suggestion types given context and achieved an F1-score of <Highlight>0.91</Highlight>; significantly decreased defect-rate and improved side-by-side metrics
                     </li>
                     <li>
                         Built and maintained a service for powering all non-prefix-match autosuggest; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
                     </li>
                     <li>
-                        Developed an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for predicting the next words of user queries; improved user engagement by increasing the autosuggest coverage by <Highlight>~20%</Highlight>
+                        Developed the <Highlight>autosuggest ranker</Highlight> of the Chromium-based Edge browser using a regression model; side-by-side metrics showed similar performance as Chrome
                     </li>
                     <li>
-                        Tuned the autosuggest relevance of Windows Search Box, Edge, and Bing.com through analyzing query patterns and experimentation
+                        Prototyped and productionized an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for next word prediction; improved user engagement by increasing the autosuggest coverage by <Highlight>~20%</Highlight>
+                    </li>
+                    <li>
+                        Tuned the autosuggest relevance of Windows Search Box, Edge, and Bing by analyzing query patterns and experimentation
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -105,7 +105,7 @@ const MainSection = (props) => {
                         Created <a href='https://techcrunch.com/2016/08/08/yahoo-launches-a-tv-watching-site-yahoo-view-in-partnership-with-hulu/'><Highlight>Yahoo! View</Highlight></a> as part of the web team; hosted <Highlight>thousands</Highlight> of TV shows and movies
                     </li>
                     <li>
-                        Implemented core UX components, optimized business APIs, and automated testing
+                        Implemented core UX components, business logic, and automated functional/unit tests
                     </li>
                     <li>
                         Integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
