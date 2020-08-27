@@ -14,9 +14,9 @@ const MainSection = (props) => {
         <div className='main-section'>
             <GeneralBlock title='Experience'>
                 <ExperienceBlock
-                    position='Software Engineer'
-                    team='Autosuggest & Shopping Relevance'
+                    position='Software Engineer II'
                     company='Microsoft'
+                    team='Autosuggest Search Relevance'
                     href='https://www.microsoft.com/en-us/about/default.aspx'
                     time='Sept 2018 - Present'
                     subTime='Intern @ Sept 2017 - Dec 2017'
@@ -38,19 +38,19 @@ const MainSection = (props) => {
                         Developed on <a href='https://www.microsoft.com/en-us/bing/commerce'><Highlight>Microsoft Bing for Commerce</Highlight></a> services and data pipelines to provide intelligent autosuggest for <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>Dynamics 365 Commerce</Highlight></a> and large-scale retailers
                     </li>
                     <li>
-                        Designed a classifier for suppressing suggestion types given context and achieved an F1-score of <Highlight>0.91</Highlight>; significantly decreased defect-rate and improved side-by-side metrics
+                        Designed a classifier for suppressing suggestions given context and achieved an F1-score of <Highlight>0.91</Highlight>; significantly improved defect-rate and side-by-side metrics for Bing autosuggest
                     </li>
                     <li>
-                        Built and maintained a service for powering all non-prefix-match autosuggest; handles <Highlight>~2,500 QPS</Highlight> per instance and has a 99th percentile latency of <Highlight>~20 ms</Highlight>
+                        Delivered a service for powering non-prefix-match suggestions to major international markets; expanded autosuggest coverage and handles <Highlight>~1,600 QPS</Highlight> per instance
                     </li>
                     <li>
                         Developed the <Highlight>autosuggest ranker</Highlight> of the Chromium-based Edge browser using a regression model; side-by-side metrics showed similar performance as Chrome
                     </li>
                     <li>
-                        Prototyped and productionized an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for next word prediction; improved user engagement by increasing the autosuggest coverage by <Highlight>~20%</Highlight>
+                        Prototyped and productionized an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for next word prediction; elevated user engagement and increased autosuggest coverage by <Highlight>~20%</Highlight>
                     </li>
                     <li>
-                        Tuned the autosuggest relevance of Windows Search Box, Edge, and Bing by analyzing query patterns and experimentation
+                        Improved the autosuggest relevance of Windows Search Box, Edge, and Bing by analyzing query patterns and experimentation
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
