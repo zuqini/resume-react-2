@@ -13,13 +13,13 @@ const SideSection = (props) => {
             <GeneralBlock title='Skills'>
                 <SkillsBlock title='Languages'>
                     <ul>
-                        <li>JavaScript</li>
                         <li>Python</li>
                         <li>Java</li>
                         <li>C#</li>
                         <li>C++</li>
-                        <li>Scala</li>
+                        <li>JavaScript</li>
                         <li>SQL</li>
+                        <li>Scala</li>
                         <li>HTML / CSS</li>
                     </ul>
                 </SkillsBlock>
@@ -44,6 +44,7 @@ const SideSection = (props) => {
                     <p className='subheader'>Application</p>
                     <ul>
                         <li>React Native</li>
+                        <li>Unity</li>
                         <li>Android SDK</li>
                         <li>.NET</li>
                         <li>OpenGL</li>
@@ -63,8 +64,9 @@ const SideSection = (props) => {
                         <li>Microsoft Azure</li>
                         <li>Firebase</li>
                         <li>Docker</li>
+                        <li>Git / SVN</li>
                         <li>Jupyter</li>
-                        <li>Git</li>
+                        <li><a href="https://github.com/zuqini/nvim">Vim</a></li>
                     </ul>
                 </SkillsBlock>
             </GeneralBlock>

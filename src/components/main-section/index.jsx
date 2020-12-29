@@ -16,7 +16,7 @@ const MainSection = (props) => {
                 <ExperienceBlock
                     position='Software Engineer II'
                     company='Microsoft'
-                    team='Autosuggest Search Relevance'
+                    team='Shopping|Autosuggest Relevance'
                     href='https://www.microsoft.com/en-us/about/default.aspx'
                     time='Sept 2018 - Present'
                     subTime='Intern @ Sept 2017 - Dec 2017'
@@ -35,28 +35,28 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
+                        Created the unified <Highlight>Shopping Recommendations</Highlight> service for product recommendations on all Microsoft applications; simplifies workflows and enables faster iteration
+                    </li>
+                    <li>
                         Developed on <a href='https://www.microsoft.com/en-us/bing/commerce'><Highlight>Microsoft Bing for Commerce</Highlight></a> services and data pipelines to provide intelligent autosuggest for <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>Dynamics 365 Commerce</Highlight></a> and large-scale retailers
                     </li>
                     <li>
                         Designed a classifier for suppressing suggestions given context and achieved an F1-score of <Highlight>0.91</Highlight>; significantly improved defect-rate and side-by-side metrics for Bing autosuggest
                     </li>
                     <li>
-                        Delivered a service for powering non-prefix-match suggestions to major international markets; expanded autosuggest coverage and handles <Highlight>~1,600 QPS</Highlight> per instance
+                        Delivered a service for powering non-prefix-match suggestions to major international markets; expanded autosuggest coverage and serves <Highlight>~1,600 QPS</Highlight> per instance
                     </li>
                     <li>
                         Developed the <Highlight>autosuggest ranker</Highlight> of the Chromium-based Edge browser using a regression model; side-by-side metrics showed similar performance as Chrome
                     </li>
                     <li>
-                        Prototyped and productionized an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for next word prediction; elevated user engagement and increased autosuggest coverage by <Highlight>~20%</Highlight>
-                    </li>
-                    <li>
-                        Improved the autosuggest relevance of Windows Search Box, Edge, and Bing by analyzing query patterns and experimentation
+                        Prototyped and productionized an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for next word prediction; increased autosuggest coverage by <Highlight>~20%</Highlight> and improved user engagement
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
                     position='Data Infrastructure Intern'
-                    team='Media Infastructure'
                     company='LinkedIn'
+                    team='Media Infrastructure'
                     href='https://press.linkedin.com/about-linkedin'
                     time='Jan 2017 - Apr 2017'
                     location='Sunnyvale, CA'
@@ -85,9 +85,9 @@ const MainSection = (props) => {
                 </ExperienceBlock>
                 <ExperienceBlock
                     position='Software Engineering Intern'
-                    team='Yahoo! View Web'
                     company='Yahoo!'
-                    href='https://about.yahoo.com/'
+                    team='Yahoo! View'
+                    href='https://www.yahoo.com/'
                     time='May 2016 - Aug 2016'
                     location='Sunnyvale, CA'
                     icon='yahoo-2019'
@@ -105,7 +105,7 @@ const MainSection = (props) => {
                         Created <a href='https://techcrunch.com/2016/08/08/yahoo-launches-a-tv-watching-site-yahoo-view-in-partnership-with-hulu/'><Highlight>Yahoo! View</Highlight></a> as part of the web team; hosted <Highlight>thousands</Highlight> of TV shows and movies
                     </li>
                     <li>
-                        Implemented core UX components, business logic, and automated functional/unit tests
+                        Implemented search into Yahoo! View using <Highlight>AWS CloudSearch</Highlight>; built main UX flows and business logic; and set-up automated functional/unit tests
                     </li>
                     <li>
                         Integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
@@ -130,17 +130,15 @@ const MainSection = (props) => {
                     A platform for fans to trade and resale their albums/posters/merch; received <Highlight>thousands</Highlight> of pageviews and <Highlight>hundreds</Highlight> of concurrent active users during the KCON LA event
                 </ProjectsBlock>
                 <ProjectsBlock
-                    title='Discord Helper Bots'
-                    type='Node.js Client'
-                    href='https://github.com/JustYourPythonEnvironment'
-                    time='Aug 2018 - Present'
+                    title='HoppyPup'
+                    type='Android/iOS Game'
+                    time='Oct 2020 - Present'
                     techList={[
-                        'Node.js',
-                        'Firebase',
-                        'Discord API',
+                        'Unity',
+                        'C#'
                     ]}
                 >
-                    Chatbots that power <Highlight>additional functionalities</Highlight> on top of Discord servers: custom emoji/gif and sticker reactions, media sorting and archiving, lyrics/YouTube scraper, and logging
+                    A 2D mobile game featuring custom assets, dynamic shadows, and day-night system
                 </ProjectsBlock>
                 <ProjectsBlock
                   title='LUQL'
@@ -167,10 +165,23 @@ const MainSection = (props) => {
                         'OpenAL',
                     ]}
                 >
-                    A 3D OpenGL first-person shooter; built completely from scratch featuring dynamic shadow mapping, particle system, and physics engine
+                    A 3D first-person shooter built completely from scratch featuring dynamic shadow mapping, particle system, and physics engine
                 </ProjectsBlock>
                 {
                     /*
+                    <ProjectsBlock
+                        title='Discord Helper Bots'
+                        type='Node.js Client'
+                        href='https://github.com/JustYourPythonEnvironment'
+                        time='Aug 2018 - Present'
+                        techList={[
+                            'Node.js',
+                            'Firebase',
+                            'Discord API',
+                        ]}
+                    >
+                        Chatbots that power <Highlight>additional functionalities</Highlight> on top of Discord servers: custom emoji/gif and sticker reactions, media sorting and archiving, lyrics/YouTube scraper, and logging
+                    </ProjectsBlock>
                     <ProjectsBlock
                         title='VReq'
                         time='November 2014'
