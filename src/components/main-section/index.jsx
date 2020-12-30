@@ -16,7 +16,7 @@ const MainSection = (props) => {
                 <ExperienceBlock
                     position='Software Engineer II'
                     company='Microsoft'
-                    team='Shopping|Autosuggest Relevance'
+                    team='Shop|Autosuggest Relevance'
                     href='https://www.microsoft.com/en-us/about/default.aspx'
                     time='Sept 2018 - Present'
                     subTime='Intern @ Sept 2017 - Dec 2017'
@@ -105,7 +105,7 @@ const MainSection = (props) => {
                         Created <a href='https://techcrunch.com/2016/08/08/yahoo-launches-a-tv-watching-site-yahoo-view-in-partnership-with-hulu/'><Highlight>Yahoo! View</Highlight></a> as part of the web team; hosted <Highlight>thousands</Highlight> of TV shows and movies
                     </li>
                     <li>
-                        Implemented search into Yahoo! View using <Highlight>AWS CloudSearch</Highlight>; built main UX flows and business logic; and set-up automated functional/unit tests
+                        Implemented search functionalities into Yahoo! View using <Highlight>AWS CloudSearch</Highlight>, built interactive components and business logic, and set-up automated functional/unit tests
                     </li>
                     <li>
                         Integrated <Highlight>Tumblr</Highlight> content into Yahoo! View to show relevant official and fan posts
@@ -131,7 +131,7 @@ const MainSection = (props) => {
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='HoppyPup'
-                    type='Android/iOS Game'
+                    type='Unity Game'
                     time='Oct 2020 - Present'
                     techList={[
                         'Unity',
@@ -156,7 +156,7 @@ const MainSection = (props) => {
                 </ProjectsBlock>
                 <ProjectsBlock
                   title='MelonWatch'
-                  type='OpenGL App'
+                  type='OpenGL Game'
                   href='https://github.com/zuqini/MelonWatch'
                   time='Aug 2017'
                   techList={[
