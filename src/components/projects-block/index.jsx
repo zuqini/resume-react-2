@@ -8,7 +8,7 @@ const ProjectsBlock = (props) => {
         <div className='projects-block'>
             <div className='project-header'>
                 <div className='project-meta'>
-                    <p className='project-title med-text'><a href={href}>{title}</a></p>
+                    <p className='project-title med-text'>{ !!href ? <a href={href}>{title}</a> : title }</p>
                     <span className='separator'>|</span>
                     <p className='type bold-text'>{type}</p>
                     <span className='separator'>|</span>

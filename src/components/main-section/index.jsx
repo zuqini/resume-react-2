@@ -35,22 +35,22 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Created the unified <Highlight>Shopping Recommendations</Highlight> service for product recommendations on all Microsoft applications; simplifies workflows and enables faster iteration
+                        Developed and supported <a href='https://www.microsoft.com/en-us/bing/commerce'><Highlight>Microsoft Bing for Commerce</Highlight></a> services/pipelines to power intelligent autosuggest for various retailer clients and <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>Dynamics 365 Commerce</Highlight></a>
                     </li>
                     <li>
-                        Developed on <a href='https://www.microsoft.com/en-us/bing/commerce'><Highlight>Microsoft Bing for Commerce</Highlight></a> services and data pipelines to provide intelligent autosuggest for <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>Dynamics 365 Commerce</Highlight></a> and large-scale retailers
+                        Created the unified <Highlight>Shopping Recommendations</Highlight> service to support personalized product recommendations on all user-facing apps such as Windows, Bing, Edge, and MSN
                     </li>
                     <li>
-                        Designed a classifier for suppressing suggestions given context and achieved an F1-score of <Highlight>0.91</Highlight>; significantly improved defect-rate and side-by-side metrics for Bing autosuggest
+                        Designed classifier to identify and suppress irrelevant Bing suggestions given context; achieved an F1-score of <Highlight>0.91</Highlight> and significantly reduced defect-rate
                     </li>
                     <li>
-                        Delivered a service for powering non-prefix-match suggestions to major international markets; expanded autosuggest coverage and serves <Highlight>~1,600 QPS</Highlight> per instance
+                        Delivered service for providing non-prefix-match suggestions to en-US and international markets; expanded autosuggest coverage and serves <Highlight>~1,600 QPS</Highlight> per instance
                     </li>
                     <li>
-                        Developed the <Highlight>autosuggest ranker</Highlight> of the Chromium-based Edge browser using a regression model; side-by-side metrics showed similar performance as Chrome
+                        Developed server-side <Highlight>autosuggest ranker</Highlight> for the Chromium Edge browser using regression trees; side-by-side metrics showed comparable performance to Chrome
                     </li>
                     <li>
-                        Prototyped and productionized an <Highlight>n-gram</Highlight> and an <Highlight>RNN</Highlight> language model for next word prediction; increased autosuggest coverage by <Highlight>~20%</Highlight> and improved user engagement
+                        Prototyped and productionized <Highlight>n-gram</Highlight>/<Highlight>RNN</Highlight> language models for next word prediction; increased autosuggest coverage by <Highlight>~20%</Highlight> and improved user engagement
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -69,16 +69,16 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Helped launch LinkedIn's <Highlight>media infrastructure</Highlight> for processing and serving all digital assets
+                        Helped launch LinkedIn's <a href='https://engineering.linkedin.com/teams/data/data-infrastructure/media-infra-vector'><Highlight>media infrastructure</Highlight></a> for processing and serving all digital assets
                     </li>
                     <li>
                         Designed and deployed a distributed <Highlight>end-to-end validation</Highlight>/<Highlight>performance testing</Highlight> service
                         <ul>
                             <li>
-                                Handles scheduling, traffic generation, metrics collection, data validation, and alerting
+                                Supports traffic generation, metrics collection, data validation, scheduling,  and alerting
                             </li>
                             <li>
-                                Used for experimentation, automating customizable tests, and failure monitoring
+                                Used for experimentation, failure monitoring, and automating customizable E2E tests
                             </li>
                         </ul>
                     </li>

@@ -17,6 +17,13 @@
 
             .project-title {
                 font-size: 20px;
+
+                >a {
+                    /* text-decoration: underline; cannot control thickness */
+                    border-bottom: 2px solid black;
+                    display: inline-block;
+                    line-height: 0.85;
+                }
             }
 
             .separator {

@@ -26,6 +26,10 @@
                 font-size: 15px;
                 margin-top: 7px;
                 line-height: 1.1;
+
+                >a {
+                    text-decoration: underline;
+                }
             }
         }
     }
