@@ -35,16 +35,19 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Developed and supported <a href='https://www.microsoft.com/en-us/bing/commerce'><Highlight>Microsoft Bing for Commerce</Highlight></a> services/pipelines to power intelligent autosuggest for various retailer clients and <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>Dynamics 365 Commerce</Highlight></a>
+                        Lead the <Highlight>Shopping Newsletter</Highlight> infrastructure to enable targeted personalized emails for user engagement; architected the entire data pipeline and worked closely with UX
                     </li>
                     <li>
-                        Created the unified <Highlight>Shopping Recommendations</Highlight> service to support personalized product recommendations on all user-facing apps such as Windows, Bing, Edge, and MSN
+                        Created the core <Highlight>Shopping Recommendations</Highlight> service and designed the <Highlight>infinite feed</Highlight> workflow, serving personalized offers from multiple sources to all Microsoft apps
+                    </li>
+                    <li>
+                        Developed on <a href='https://mspoweruser.com/microsoft-announces-bing-for-commerce-an-ai-powered-search-technology-for-retailers/'><Highlight>Bing for Commerce</Highlight></a> to power intelligent autosuggest for retailers and <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>D365</Highlight></a>
                     </li>
                     <li>
                         Designed classifier to identify and suppress irrelevant Bing suggestions given context; achieved an F1-score of <Highlight>0.91</Highlight> and significantly reduced defect-rate
                     </li>
                     <li>
-                        Delivered service for providing non-prefix-match suggestions to en-US and international markets; expanded autosuggest coverage and serves <Highlight>~1,600 QPS</Highlight> per instance
+                        Engineered service for providing non-prefix-match suggestions to en-US and international markets; expanded autosuggest coverage and serves <Highlight>~1,600 QPS</Highlight> per instance
                     </li>
                     <li>
                         Developed server-side <Highlight>autosuggest ranker</Highlight> for the Chromium Edge browser using regression trees; side-by-side metrics showed comparable performance to Chrome
@@ -72,7 +75,7 @@ const MainSection = (props) => {
                         Helped launch LinkedIn's <a href='https://engineering.linkedin.com/teams/data/data-infrastructure/media-infra-vector'><Highlight>media infrastructure</Highlight></a> for processing and serving all digital assets
                     </li>
                     <li>
-                        Designed and deployed a distributed <Highlight>end-to-end validation</Highlight>/<Highlight>performance testing</Highlight> service
+                        Designed and delivered a distributed <Highlight>end-to-end validation</Highlight>/<Highlight>performance testing</Highlight> platform
                         <ul>
                             <li>
                                 Supports traffic generation, metrics collection, data validation, scheduling,  and alerting
@@ -116,8 +119,8 @@ const MainSection = (props) => {
                 <ProjectsBlock
                     title='KaeSwap'
                     type='Website'
-                    href='https://v1.kaeswap.com/'
-                    time='Dec 2018 - Present'
+                    href='https://jasonmh.me/portfolio/kaeswap.html'
+                    time='Dec 2018 - Jan 2021'
                     techList={[
                         'Next.js',
                         'Apollo GQL',
@@ -128,17 +131,6 @@ const MainSection = (props) => {
                     ]}
                 >
                     A platform for fans to trade and resale their albums/posters/merch; received <Highlight>thousands</Highlight> of pageviews and <Highlight>hundreds</Highlight> of concurrent active users during the KCON LA event
-                </ProjectsBlock>
-                <ProjectsBlock
-                    title='HoppyPup'
-                    type='Unity Game'
-                    time='Oct 2020 - Present'
-                    techList={[
-                        'Unity',
-                        'C#'
-                    ]}
-                >
-                    A 2D mobile game featuring custom assets, dynamic shadows, and day-night system
                 </ProjectsBlock>
                 <ProjectsBlock
                   title='LUQL'
@@ -169,6 +161,17 @@ const MainSection = (props) => {
                 </ProjectsBlock>
                 {
                     /*
+                    <ProjectsBlock
+                        title='HoppyPup'
+                        type='Unity Game'
+                        time='Oct 2020 - Present'
+                        techList={[
+                            'Unity',
+                            'C#'
+                        ]}
+                    >
+                        A 2D mobile game featuring custom assets, dynamic shadows, and day-night system
+                    </ProjectsBlock>
                     <ProjectsBlock
                         title='Discord Helper Bots'
                         type='Node.js Client'
