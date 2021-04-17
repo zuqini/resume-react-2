@@ -35,10 +35,10 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Lead the <Highlight>Shopping Newsletter</Highlight> infrastructure to enable targeted personalized emails for user engagement; architected the entire data pipeline and worked closely with UX
+                        Lead the <Highlight>Shopping Newsletter</Highlight> development and architected the entire pipeline for personalized emails; targets millions of shoppers weekly and greatly improves engagement
                     </li>
                     <li>
-                        Created the core <Highlight>Shopping Recommendations</Highlight> service and designed the <Highlight>infinite feed</Highlight> workflow, serving personalized offers from multiple sources to all Microsoft apps
+                        Created the core <Highlight>Shopping Recommendations</Highlight> service and built the <Highlight>infinite feed</Highlight> workflow, enabling hundreds of personalized offers from multiple sources to all Microsoft apps
                     </li>
                     <li>
                         Developed on <a href='https://mspoweruser.com/microsoft-announces-bing-for-commerce-an-ai-powered-search-technology-for-retailers/'><Highlight>Bing for Commerce</Highlight></a> to power intelligent autosuggest for retailers and <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>D365</Highlight></a>
