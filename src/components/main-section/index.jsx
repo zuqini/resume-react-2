@@ -35,10 +35,10 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Lead the <Highlight>Shopping Newsletter</Highlight> development and architected the entire pipeline for personalized emails; targets millions of shoppers weekly and greatly improves engagement
+                        Lead the <Highlight>Shopping Newsletter</Highlight> development and architected the entire data pipeline for personalized emails; targets millions of shoppers weekly and greatly improves engagement
                     </li>
                     <li>
-                        Created the core <Highlight>Shopping Recommendations</Highlight> service and built the <Highlight>infinite feed</Highlight> workflow, enabling hundreds of personalized offers from multiple sources to all Microsoft apps
+                        Created the core <Highlight>Shopping Recommendations</Highlight> service and built the <Highlight>infinite feed</Highlight> workflow, providing hundreds of personalized offers to users across all Microsoft products
                     </li>
                     <li>
                         Developed on <a href='https://mspoweruser.com/microsoft-announces-bing-for-commerce-an-ai-powered-search-technology-for-retailers/'><Highlight>Bing for Commerce</Highlight></a> to power intelligent autosuggest for retailers and <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>D365</Highlight></a>
@@ -47,7 +47,7 @@ const MainSection = (props) => {
                         Designed classifier to identify and suppress irrelevant Bing suggestions given context; achieved an F1-score of <Highlight>0.91</Highlight> and significantly reduced defect-rate
                     </li>
                     <li>
-                        Engineered service for providing non-prefix-match suggestions to en-US and international markets; expanded autosuggest coverage and serves <Highlight>~1,600 QPS</Highlight> per instance
+                        Engineered service for serving non-prefix-match suggestions to en-US and international markets; expanded autosuggest coverage and serves <Highlight>~1,600 QPS</Highlight> per instance
                     </li>
                     <li>
                         Developed server-side <Highlight>autosuggest ranker</Highlight> for the Chromium Edge browser using regression trees; side-by-side metrics showed comparable performance to Chrome
