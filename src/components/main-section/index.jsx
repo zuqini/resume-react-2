@@ -14,7 +14,7 @@ const MainSection = (props) => {
         <div className='main-section'>
             <GeneralBlock title='Experience'>
                 <ExperienceBlock
-                    position='Software Engineer II'
+                    position='Software Engineer'
                     company='Microsoft'
                     team='Shop|Autosuggest Relevance'
                     href='https://www.microsoft.com/en-us/about/default.aspx'
@@ -35,22 +35,22 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Lead the <Highlight>Shopping Newsletter</Highlight> development and architected the entire data pipeline for personalized emails; targets millions of shoppers weekly and greatly improves engagement
+                        Led development of <Highlight>Shopping Newsletters</Highlight> and architected the entire pipeline for sending personalized emails; targets millions of shoppers weekly and greatly improves engagement
                     </li>
                     <li>
-                        Created the core <Highlight>Shopping Recommendations</Highlight> service and built the <Highlight>infinite feed</Highlight> workflow, providing hundreds of personalized offers to users across all Microsoft products
+                        Created <Highlight>Shopping Recommendation</Highlight> service to power all product recommendations and the <Highlight>infinite feed</Highlight>, providing hundreds of personalized offers to users across Microsoft apps
                     </li>
                     <li>
-                        Developed on <a href='https://mspoweruser.com/microsoft-announces-bing-for-commerce-an-ai-powered-search-technology-for-retailers/'><Highlight>Bing for Commerce</Highlight></a> to power intelligent autosuggest for retailers and <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>D365</Highlight></a>
+                        Developed on <a href='https://mspoweruser.com/microsoft-announces-bing-for-commerce-an-ai-powered-search-technology-for-retailers/'><Highlight>Bing for Commerce</Highlight></a> to support intelligent autosuggest for retailers and <a href='https://dynamics.microsoft.com/en-us/commerce/overview/'><Highlight>D365</Highlight></a>
                     </li>
                     <li>
-                        Designed classifier to identify and suppress irrelevant Bing suggestions given context; achieved an F1-score of <Highlight>0.91</Highlight> and significantly reduced defect-rate
+                        Built and applied classifier to identify and suppress irrelevant Bing suggestions given context; achieved an F1-score of <Highlight>0.91</Highlight> and significantly reduced defect-rate
                     </li>
                     <li>
-                        Engineered service for serving non-prefix-match suggestions to en-US and international markets; expanded autosuggest coverage and serves <Highlight>~1,600 QPS</Highlight> per instance
+                        Engineered service for serving non-prefix-match autosuggest to en-US and international markets; expanded autosuggest coverage and serves <Highlight>~1,600 QPS</Highlight> per instance
                     </li>
                     <li>
-                        Developed server-side <Highlight>autosuggest ranker</Highlight> for the Chromium Edge browser using regression trees; side-by-side metrics showed comparable performance to Chrome
+                        Implemented server-side <Highlight>autosuggest ranker</Highlight> for the Chromium Edge browser using regression trees; side-by-side metrics showed comparable performance to Chrome
                     </li>
                     <li>
                         Prototyped and productionized <Highlight>n-gram</Highlight>/<Highlight>RNN</Highlight> language models for next word prediction; increased autosuggest coverage by <Highlight>~20%</Highlight> and improved user engagement
